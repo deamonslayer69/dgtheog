@@ -94,9 +94,12 @@ Then re-run migration SQL for cron scheduling snippet.
 ## 4) Run the app
 
 ```bash
-cd app
-npm install
-npm run start
+# from repo root
+npm install --prefix app
+npm run dev
+
+# (equivalent)
+cd app && npm run dev
 ```
 
 Set client env vars:

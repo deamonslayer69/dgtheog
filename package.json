@@ -1,0 +1,12 @@
+{
+  "name": "wakebrief-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app run dev",
+    "start": "npm --prefix app run start",
+    "ios": "npm --prefix app run ios",
+    "android": "npm --prefix app run android",
+    "typecheck": "npm --prefix app run typecheck",
+    "lint": "npm --prefix app run lint"
+  }
+}
