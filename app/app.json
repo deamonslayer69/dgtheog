@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WakeBrief",
+    "slug": "wakebrief",
+    "scheme": "wakebrief",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wakebrief.app"
+    },
+    "android": {
+      "package": "com.wakebrief.app"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#0F172A"
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "${SUPABASE_URL}",
+      "supabaseAnonKey": "${SUPABASE_ANON_KEY}",
+      "projectId": "${EXPO_PROJECT_ID}"
+    }
+  }
+}
